@@ -1,0 +1,41 @@
+{
+  "name": "testling-max-by",
+  "version": "0.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "tape": "~2.4.0"
+  },
+  "testling": {
+    "files": "test/*.js",
+    "browsers": [
+      "ie/6..latest",
+      "chrome/22..latest",
+      "firefox/16..latest",
+      "safari/latest",
+      "opera/11.0..latest",
+      "iphone/6",
+      "ipad/6",
+      "android-browser/latest"
+    ]
+  },
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "directories": {
+    "example": "example",
+    "test": "test"
+  },
+  "dependencies": {
+    "tape": "^4.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xgbuils/testling-max-by"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xgbuils/testling-max-by/issues"
+  },
+  "homepage": "https://github.com/xgbuils/testling-max-by"
+}
