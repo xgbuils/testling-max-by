@@ -25,9 +25,7 @@
     "example": "example",
     "test": "test"
   },
-  "dependencies": {
-    "tape": "^4.0.0"
-  },
+  "dependencies": {},
   "repository": {
     "type": "git",
     "url": "https://github.com/xgbuils/testling-max-by"
